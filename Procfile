@@ -1,0 +1,1 @@
+web: ./node_modules/.bin/startup start -p test/server.js -w 1

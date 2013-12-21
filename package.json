@@ -1,0 +1,27 @@
+{
+  "name": "hyper-emitter-ws",
+  "version": "0.1.0",
+  "description": "",
+  "main": "test/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "engine.io": "~0.7.12",
+    "simple-stack-common": "~0.2.2",
+    "startup": "~0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamShaft/hyper-emitter-ws.git"
+  },
+  "author": "Cameron Bytheway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamShaft/hyper-emitter-ws/issues"
+  }
+}

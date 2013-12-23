@@ -20,12 +20,12 @@ module.exports = function(opts) {
   });
 
   return function(emitter) {
-    emitter.on('watch', function(url) {
+    emitter.on('subscribe', function(url) {
       urls[url] = true;
       send(url, true);
     });
 
-    emitter.on('unwatch', function(url) {
+    emitter.on('unsubscribe', function(url) {
       delete[url];
       send(url, false);
     });
